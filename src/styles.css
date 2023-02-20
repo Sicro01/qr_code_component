@@ -1,0 +1,45 @@
+html,
+body {
+    background: #d5e1ef;
+    height: 100dvh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.box {
+    background: white;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.barcode-img {
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.text-padding {
+    padding-inline: 16px;
+}
+
+.big-line-height {
+    line-height: 1.6;
+}
+
+.text-light-color {
+    color: #b3b6bc;
+}
+
+.text-center {
+    margin: 0.5rem 1rem;
+    text-align: center;
+}
