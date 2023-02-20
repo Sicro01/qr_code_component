@@ -7,6 +7,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100%;
@@ -19,6 +20,7 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .barcode-img {
@@ -31,9 +33,7 @@ body {
     padding-inline: 16px;
 }
 
-.big-line-height {
-    line-height: 1.6;
-}
+.big-line-height {}
 
 .text-light-color {
     color: #b3b6bc;
@@ -42,4 +42,19 @@ body {
 .text-center {
     margin: 0.5rem 1rem;
     text-align: center;
+}
+
+.push-top-full {
+    margin-top: 20px;
+}
+
+.push-top {
+    margin-top: 5px;
+}
+
+.attribution {
+    line-height: 0.5;
+    align-self: flex-start;
+    font-size: small;
+    font-style: italic;
 }
